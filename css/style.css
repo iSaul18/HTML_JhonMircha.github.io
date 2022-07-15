@@ -1,0 +1,94 @@
+/* General */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 4px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: greenyellow;
+}
+
+b {
+  font-weight: bold;
+}
+
+/* Listas */
+.li-styles li {
+  color: red;
+}
+
+/* Imagenes */
+.container-img img {
+  border: black solid 1px;
+  max-width: 20%;
+}
+/* Figure */
+figure img {
+  max-width: 200px;
+}
+/* En caso la imagen no cargue */
+.alt img {
+  border: none;
+}
+/* Tablas */
+table {
+  border: black solid 1px;
+}
+/* Enlaces */
+.enlaces-prueba a {
+  display: block;
+  max-width: max-content;
+}
+/* Enlace con img */
+.enlace-img {
+  max-width: 200px;
+}
+.imge {
+  max-width: 200px;
+}
+
+/* details */
+summary {
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 15px;
+}
+/* video */
+video {
+  border: black solid 3px;
+  max-width: 30%;
+}
+/* Formularios */
+input {
+  margin: 5px;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0px auto;
+}
+
+.footer-copy {
+  background-color: black;
+  color: #e1e1e1;
+  text-align: center;
+}

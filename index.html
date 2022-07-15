@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aprendiendo HTML</title>
+    <!--Entre 55 y 65 carácteres-->
+    <meta name="description" content="Esta es una página par aprender html, css y más">
+    <!--no más de 165 cáracteres-->
+
+</head>
+
+<body>
+    <!-- Esto es un comentario -->
+    <!-- Enlaces de la seccion de introduccion a HTML y su documentación -->
+    <!-- WWW3 -->
+    <h2> Aprendiendo HTML 5</h2>
+    <p>Hola, escribiendo mi primer documento HTML</p>
+    <p>Aprendiendo sobre Diseño web:</p>
+    <ul>
+        <li><a href="#encabezados">Encabezados</a></li>
+        <li><a href="#etiquetas__texto-estilo">Etiquetas de Estilos</a></li>
+        <li><a href="#etiquetas__texto-semantico">Etiquetas de Texto Semantica</a></li>
+        <li><a href="#etiqueta__salto">Etiquetas de Salto </a></li>
+        <li><a href="#etiqueta__formateo">Etiquetas de Formateo</a></li>
+        <li><a href="#etiquetas__semanticas">Etiquetas de Estructura Semantica</a></li>
+        <li><a href="#rtiquetas__bloque">Etiqueta de bloque vs linea</a></li>
+        <li><a href="#estilosccs">Estilos CSS en HTML</a></li>
+        <li><a href="#scriptshtml">Scripts en HTML</a></li>
+        <li><a href="#imagenes">Imagenes</a></li>
+        <li><a href="#figuras">Figuras</a></li>
+        <li><a href="#listas-ordenadas">Listas ordenadas</a></li>
+        <li><a href="#listas-desordenadas">Listas Desordenadas</a></li>
+        <li><a href="#lista-definicion">Listas de Definicion</a></li>
+        <li><a href="#table">Tablas</a></li>
+        <li><a href="#enlaces">Enlaces</a></li>
+        <li><a href="#table">Ir a Tabla</a></li>
+    </ul>
+    <hr>
+    <div>
+        <h2 id="encabezados">Aprendiendo sobre Encabezados y jerarquías: </h2>
+        <h1>&lt;h1&gt; Encabezado de nivel 1 &lt;/h1&gt;</h1>
+        <h2>&lt;h2&gt; Encabezado de nivel 2 &lt;/h2&gt;</h2>
+        <h3>&lt;h3&gt; Encabezado de nivel 3 &lt;/h3&gt;</h3>
+        <h4>&lt;h4&gt; Encabezado de nivel 4 &lt;/h4&gt;</h4>
+        <h5>&lt;h5&gt; Encabezado de nivel 5 &lt;/h5&gt;</h5>
+        <h6>&lt;h6&gt; Encabezado de nivel 6 &lt;/h6&gt;</h6>
+        <hr>
+        <p>&lt;p&gt;Soy un parrafo &lt;/p&gt;</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolores corporis sunt obcaecati accusantium
+            debitis, eligendi voluptates! <b>Optio deserunt repellendus</b> laboriosam ea ex deleniti nulla perferendis
+            rem magni, cum reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique eveniet
+            exercitationem labore facere ex consequuntur eius optio voluptatem magnam sunt, cum repellat beatae atque
+            corporis cupiditate iste animi commodi!</p>
+    </div>
+    <hr>
+    <div>
+        <h2 id="etiquetas__texto-estilo">Etiquetas de Texto con Estilo:</h2>
+        <p>&lt;b&gt; <b>Negrita</b> &lt;/b&gt;</p>
+        <p>&lt;i&gt; <i>Italica</i> &lt;/i&gt;</p>
+        <p>&lt;u&gt; <u>Subrayado</u> &lt;/u&gt;</p>
+        <p>super indice: e=mc<sup>&lt;sup&gt;2&lt;/sup&gt;</sup></p>
+        <p>sub indice: H<sub>&lt;sub&gt;2&lt;/sub&gt;</sub>O</p>
+        <p>&lt;small&gt; <small>Letras pequeñas</small> &lt;/small&gt;</p>
+        <p>&lt;mark&gt; <mark>Marca de Texto</mark> &lt;/mark&gt;</p>
+    </div>
+    <hr>
+    <div>
+        <h2 id="etiquetas__texto-semantico">Etiquetas de Texto con Semantica: </h2>
+        <p>&lt;strong&gt; <strong>Este texto es importante</strong> &lt;/strong&gt;</p>
+        <p>&lt;em&gt; <em>Este Texto hace enfasis</em> &lt;/em&gt;</p>
+        <p>&lt;blockquote&gt;
+        <blockquote>Yo sólo sé, que nada sé</blockquote> &lt;/blockquote&gt;</p>
+        <p>&lt;cite&gt; <cite>Socrátes</cite> &lt;/cite&gt;</p>
+    </div>
+    <hr>
+    <div>
+        <h2 id="etiqueta__salto">Etiquetas de Saltos:</h2>
+        <p>Salto de Linea: &lt;br&gt;</p>
+        <br>
+        <p>Salto Semántico De Contenido: &lt;hr&gt;</p>
+        <hr>
+    </div>
+    <div>
+        <h2 id="etiqueta__formateo">Etiquetas de Formateo y Preformateo</h2>
+        <pre>
+         &lt;pre&gt;
+
+            Tareas por Hacer:
+            -HTML
+                -Terminar de grabar la ssecciones de este curso
+                -Editar en un solo video
+            -CSS
+                -Dar Background a la pagina
+                -Dar Color a los P
+
+         &lt;/pre&gt;
+            </pre>
+        <p>
+            &lt;code&gt;
+            <code>
+                    Este texto esta en formato codigo:  &lt;Title/&gt;                 
+                </code>
+            &lt;/code&gt;
+        </p>
+    </div>
+    <hr>
+    <div>
+        <h2 id="etiquetas__semanticas">Etiquetas semanticas:</h2>
+        <div>Div - Es una etiqueta contenedora que no tiene semántica</div>
+        <header>Header - Es la cabezera de un sitio web o de una sección</header>
+        <main>Main - Define la sección principal del documetno, solo puede existir una etiqueta main por documento
+        </main>
+        <footer>Footer - Pié de página de un sitio web o de una sección</footer>
+        <article>Article - Representa una sección de autocontenido (Por si solo se explica)</article>
+        <aside>Aside - Representa un contenido complementario o secundario</aside>
+        <section>Section - Representa una sección de contenido generico</section>
+        <address>Address - Representa una dirección</address>
+    </div>
+    <hr>
+    <div>
+        <h2 id="etiquetas__bloque">Etiquetas de Bloque VS Etiquetas de Linea</h2>
+        <div style="background-color:greenyellow ;">Div Es la etiqueta de bloque por Excelencia, una etiqueta de bloque
+            es aquella qeu genera saltosde lineas con sus etiquetas hermanas</div>
+        <span style="background-color:yellow ;">Span Es la etiqueta de Linea por Excelencia, una etiqueta de lineas solo
+            ocupa el espacio que tiene su contenido</span>
+        <span style="background-color:orange ;">Hola Soy otra span</span>
+    </div>
+    <hr>
+    <div>
+        <h2 id="estiloscss">Estilos CSS en HTML </h2>
+        <p>Hay Ciertas formas de aplicar CSS a un documento HTML:</p>
+        <ul class="li-styles">
+            <li>Linkear el documento CSS al docuemnto HTML:</li>
+            <p>&lt;link rel="stylesheet" href="(<b>DirecciónDelDocumento</b>)"&gt;</p>
+            <li>Usar la etiqueta Style en el documento HTML:</li>
+            <pre>Style {
+       background-color: blue;
+}
+                </pre>
+            <li>Usar el atributo Style en una etiqueta:</li>
+            <ul>&lt;h2 style='background-color:yellow;&gt;</ul>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2 id="scriptshtml">Scripts en HTML</h2>
+        <p>Hay ciertas formas de escribir scripts en HTML:</p>
+        <ul>
+            <script src=""></script>
+            <li>Conectar un documento Javascript a un docuemnto HTML:</li>
+            <p>&lt;script src="(<b>DirecciónDelDocumento</b>)"&gt; &lt;/script&gt;</p>
+            <li>Usar la etiqueta script</li>
+            <p>&lt;script&gt; &lt;/script&gt;</p>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2 id="imagenes">Imagenes</h2>
+        <h3>Etiqueta para insertar imagen: </h3>
+        <p>&lt;img src="(<b>DireccionDeLaImagen</b>)"/&gt;</p>
+        <div class="container-img">
+            <img src="img/gato-rojo-o-blanco-i-estudio-blanco_155003-13189.webp" alt="gato">
+            <img src="img/gato-cachorro_87414-1136.webp" alt="gatoDos">
+            <img src="img/hermoso-gato-ojos-azules_58409-14525.webp" alt="gatoTres">
+        </div>
+        <h3>Existe un atributo en caso la imagen no pueda cargar:</h3>
+        <p> alt="(<b>NombreDeLaImagen</b>)"</p>
+        <div class="alt">
+            <img src="#" alt="ImagenDeUnGato">
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2 id="figuras">Figuras:</h2>
+        <figure>
+            <img src="img/gato-marron_0.webp" alt="Tabla de elementos">
+            <figcaption>Gato Marron</figcaption>
+        </figure>
+    </div>
+    <hr>
+    <div>
+        <h2>Listas:</h2>
+        <h3 id="listas-ordenadas">Listas ordenadas</h3>
+        <ol>&lt;ol&gt; Las Estaciones del año:
+            <ol>
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            &lt;ol&gt;
+        </ol>
+
+        <ol>&lt;ol&gt; Las Estaciones del año:
+            <ol type="I">
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            &lt;ol&gt;
+        </ol>
+
+        <ol>&lt;ol&gt; Las Estaciones del año:
+            <ol type="A">
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            &lt;ol&gt;
+        </ol>
+
+        <ol>&lt;ol&gt; Las Estaciones del año:
+            <ol type="1" reversed>
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            &lt;ol&gt;
+        </ol>
+
+        <h3 id="listas-desordenadas">Listas Desordenadas: </h3>
+        &lt;ul&gt;
+        <ul>
+            <li>Cosas por Hacer:</li>
+
+            <ul>
+                <li>Terminar de grabar los fragmentos del curss HTML</li>
+                <li>Editar el video final</li>
+                <li>Subirlo a youtube</li>
+            </ul>
+        </ul>
+        &lt;/ul&gt;
+        <br><br>
+        &lt;ul&gt;
+        <ul type="square">
+            <li>Cosas por Hacer:</li>
+
+            <ul type="square">
+                <li>Terminar de grabar los fragmentos del curss HTML</li>
+                <li>Editar el video final</li>
+                <li>Subirlo a youtube</li>
+            </ul>
+        </ul>
+        &lt;/ul&gt;
+
+        <br><br>
+
+        &lt;ul&gt;
+        <ul type="circle">
+            <li>Cosas por Hacer:</li>
+
+            <ul type="circle">
+                <li>Terminar de grabar los fragmentos del curss HTML</li>
+                <li>Editar el video final</li>
+                <li>Subirlo a youtube</li>
+            </ul>
+        </ul>
+        &lt;/ul&gt;
+    </div>
+    <hr>
+    <div>
+        <h2 id="lista-definicion">Listas de Definición:</h2>
+        <dl>&lt;dl&gt;
+            <dt>HTML</dt>
+            <dd>Es un lenguaje de marcado que define el contenido y estructura de la web</dd>
+            <dt>CSS</dt>
+            <dd>Es un lenguaje de definicion de estilos, que da estilos al codigo HTML</dd>
+            <dt>Javascript</dt>
+            <dd>Es el lenguaje de la web</dd>
+            &lt;/dl&gt;
+        </dl>
+    </div>
+    <hr>
+    <div>
+        <h2 id="tablas">Tablas</h2>
+        <table id="table">
+            <caption>
+                Caballeros del Zodiaco
+            </caption>
+            <thead>
+                <th colspan="3">Santos de Atena</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Constelación</td>
+                    <td>Tipo</td>
+                </tr>
+                <tr>
+                    <td>ikki</td>
+                    <td>Fenix</td>
+                    <td>Bronce</td>
+                </tr>
+                <tr>
+                    <td>Shina</td>
+                    <td>Ofiuco</td>
+                    <td>Plata</td>
+                </tr>
+                <tr>
+                    <td>Saga</td>
+                    <td>Geminis</td>
+                    <td>Dorado</td>
+                </tr>
+                <tr>
+                    <td>Odiseo</td>
+                    <td>Ofiuco</td>
+                    <td>Dorado</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3"><small>Saint Seiya fue creado por Masami Kuramada</small></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <hr>
+    <div>
+        <h2 id="enlaces">Enlaces:</h2>
+        &lt;a&gt; href=""&gt;<a href="html/a.html">Hola</a>&lt;/a&gt;
+
+        <div class="enlaces-prueba">
+            <a href="https://www.nosolousabilidad.com/articulos/el_enlace.htm#:~:text=Los%20enlaces%2C%20en%20la%20actual,com%C3%BAnmente%20es%20conocida%20como%20Navegaci%C3%B3n."
+                target="_blank" rel="nofollow">Enlace De Prueba 1</a>
+            <a href="https://neoattack.com/neowiki/enlace/" target="_blank" rel="nofollow">Enlace De Prueba 2</a>
+            <a href="https://monetizaweb.com/que-es-un-enlace/" target="_blank" rel="nofollow">Enlace De Prueba 3</a>
+            <div class="enlace-img">
+                <a href=""> <img class="imge" src="img/gato-marron_0.webp" alt=""></a>
+            </div>
+
+            <p>Enlaces de URL:
+                <a href="https://api.whatsapp.com/send?phone=51929894981&text=hola" target="_blank">whatsapp</a>
+            </p>
+        </div>
+        <hr>
+        <div>
+            <h2>Elementos Interactivos:</h2>
+            <button onclick="alert('Hola')">Toca Aquí</button>
+            <br>
+            <details>
+                <summary>Titulo</summary>
+                <article>
+                    <h3>Contenido</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facere nobis libero ex molestias
+                        rerum aliquid natus voluptas, praesentium rem eaque atque architecto harum, nisi quam quibusdam
+                        reiciendis sed eum?</p>
+                </article>
+            </details>
+            <details>
+                <summary>Titulo 2</summary>
+                <h3>Contenido 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, optio incidunt quisquam veniam maxime
+                    delectus. A commodi modi porro at officiis rerum sint animi aliquam! Laboriosam distinctio dolorem
+                    inventore nesciunt?</p>
+            </details>
+            <dialog id="ventana" open>
+                Esta es una ventana modal en HTML
+            </dialog>
+        </div>
+        <br><br><br>
+        <hr>
+        <div>
+            <h2>Audio y Video:</h2>
+            <audio src="audio/No se habla de Bruno (De _Encanto_)(MP3_128K).mp3" controls preload></audio>
+            <br><br><br><br>
+            <video src="video/videoplayback.mp4" controls poster="img/gato-marron_0.webp"></video>
+        </div>
+        <hr>
+        <div>
+            <h2>IFrames:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-oK6zL01fNM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe src="html/a.html" frameborder="1"></iframe>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1TQ67EVXSz-Y-WmibxokUFVh46cE&hl=es&ehbc=2E312F"
+                width="640" height="480"></iframe>
+        </div>
+        <hr>
+        <div>
+            <h2>Formularios:</h2>
+            <input type="text"> <br>
+            <input type="checkbox"> <br>
+            <input type="radio"> <br>
+            <input type="button" value="Tocáme"> <br>
+            <input type="submit"> <br>
+            <input type="reset"> <br>
+            <input type="file" multiple> <br>
+            <input type="hidden" name="idioma" value="es"> <br>
+            <input type="color"> <br>
+            <input type="email" placeholder="Correo"> <br>
+            <input type="password" placeholder="Contraseña"> <br>
+            <input type="tel" placeholder="Telefono"> <br>
+            <input type="search" placeholder="Buscar"> <br>
+            <textarea name="caja" id="caja" cols="30" rows="10"></textarea> <br>
+
+            <select name="Diseño Web" id="hg">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JAVASCRIPT</option>
+                <option value="">PHP</option>
+            </select>
+
+            <input readonly type="text" disabled placeholder="Solo Lee">
+
+            <form autocomplete="off" action="https://htmlreference.io/" method="get">
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text" name="Usuario" required pattern="^[A-Za-z]+$" title="Solo Letras">
+                <label for="contraseña">Contraseña</label>
+                <input id="contraseña" type="password" name="Contraseña" required>
+                <input type="submit">
+                <input type="reset">
+            </form>
+            <br>
+            <h3>Selects, Radios:</h3>
+            <form>
+                <p>Eligue Tu idioma</p>
+                <select name="idiomas" id="idiomas" required>
+                    <option value="" selected>Elige una opción</option>
+                    <option value="es">Español</option>
+                    <option value="en">Ingles</option>
+                    <option value="fr">Frances</option>
+                    <option value="pt">Portugues</option>
+                </select>
+                <p>Elige tu lenguaje de programación favorito</p>
+                <input type="radio" name="Lenguaje" id="js">
+                <label for="js">Javascript</label>
+                <input type="radio" name="Lenguaje" id="py">
+                <label for="py">Python</label>
+                <input type="radio" name="Lenguaje" id="php">
+                <label for="py">Php</label>
+                <input type="submit">
+            </form>
+            <form>
+                <h3>Checkbox</h3>
+                <label>
+                    <input type="checkbox" name="intereses" value="deportes"> Deportes
+                </label>
+                <label>
+                    <input type="checkbox" name="intereses" value="finanzas"> Finanzas
+                </label>
+                <label>
+                    <input type="checkbox" name="intereses" value="salud"> Salud
+                </label>
+                <label>
+                    <input type="checkbox" name="intereses" value="politica"> Politica
+                </label>
+                <input type="submit">
+            </form>
+            <form action="https://formsubmit.co/porrasemiliosaul@gmail.com" method="">
+                <h3>Formulario de Contacto</h3>
+                <input type="text" name="nombre" placeholder="Ingresa tú Nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                    title="Solo letras y espacios en blanco" required>
+                <br>
+                <input type="email" name="correo" placeholder="Ingresa tú Correo"
+                    pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Formato de correo invalido" required>
+                <br>
+                <textarea name="comentarios" cols="30" rows="10" required></textarea>
+                <input type="submit">
+            </form>
+            <hr>
+            <div>
+                <h2 id="data-attributes">Data attributes</h2>
+                <ul>
+                    <li data-id="1" data-name="spring">Primavera</li>
+                    <li data-id="2" data-name="summer">Verano</li>
+                    <li data-id="3" data-name="autum">Otoño</li>
+                    <li data-id="4" data-name="winter">Invierno</li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <h2>MetaEtiquetas para Ceo</h2>
+                <code>
+                        <title></title>
+                        &lt;title&gt;{Entre 55-65 carácteres}&lt;/title&gt;
+                        <meta name="description" content="">
+                        &lt;meta name="description" content="{No más de 165 carácteres}"&gt;                       
+                        &lt;link rel="canonical" herf="http://" &gt;
+                        <link rel="canonical" href="http://tudominio.com/la-url-canonica">
+                        <meta name="theme-color" content="#ff6600">
+                        <meta property="og:description" content="En esta pagina se aprende html">
+                        <meta property="og:image" content="https://{tuDominio.com}/img/gato.jpg">
+                        <meta property="og:url" content="https://{tuDominio.com}/index.html">
+                    </code>
+            </div>
+            <hr>
+            <div>
+                <h2>Accesibilidad web</h2>
+                <p aria-label="PArrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nam nulla optio.
+                    Sapiente doloribus fugiat ducimus voluptates consequatur, laboriosam alias earum culpa magni iure
+                    expedita. Natus modi sequi voluptas quia!</p>
+                <p tabindex="1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fugiat officiis
+                    aut. Impedit nihil obcaecati recusandae deserunt, corrupti numquam magnam! Quibusdam, animi
+                    doloribus itaque deserunt sed inventore impedit eius in?</p>
+                <p tabindex="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tenetur excepturi iste
+                    amet nobis nesciunt quia, adipisci in cum assumenda cupiditate quibusdam non itaque libero
+                    asperiores impedit, atque quae tempora!</p>
+            </div>
+            <footer class="footer-copy">
+                <p> Saúl Porras &copy;</p>
+            </footer>
+</body>
+
+</html>
