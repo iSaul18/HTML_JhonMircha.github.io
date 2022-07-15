@@ -82,13 +82,9 @@ input {
   margin: 5px;
 }
 
-.contenedor {
-  max-width: 120rem;
-  margin: 0px auto;
-}
-
 .footer-copy {
   background-color: black;
   color: #e1e1e1;
   text-align: center;
+  padding: 8px 0 8px 0;
 }
